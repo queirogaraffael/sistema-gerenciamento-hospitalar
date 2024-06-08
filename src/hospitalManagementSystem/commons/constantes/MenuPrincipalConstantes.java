@@ -1,4 +1,4 @@
-package hospitalManagementSystem.constantes;
+package hospitalManagementSystem.commons.constantes;
 
 public class MenuPrincipalConstantes {
 

@@ -1,8 +1,8 @@
 package hospitalManagementSystem.model.dao;
 
 import hospitalManagementSystem.db.DB;
-import hospitalManagementSystem.model.dao.service.MedicoDaoJDBC;
-import hospitalManagementSystem.model.dao.service.PacienteDaoJDBC;
+import hospitalManagementSystem.model.dao.imp.MedicoDaoJDBC;
+import hospitalManagementSystem.model.dao.imp.PacienteDaoJDBC;
 
 public class DaoFactory {
 

@@ -9,5 +9,5 @@ public interface PacienteDao {
 
 	Paciente findByCpf(String cpf);
 	
-	void atualizaTelefonePeloCpf(String cpf, String telefone);
+	void updateTelefoneByCpf(String cpf, String telefone);
 }

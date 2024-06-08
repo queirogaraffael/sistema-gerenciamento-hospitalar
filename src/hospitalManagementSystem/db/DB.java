@@ -9,6 +9,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Properties;
 
+import hospitalManagementSystem.db.Exceptions.DbException;
+
 public class DB {
 
 	private static Connection conn = null;

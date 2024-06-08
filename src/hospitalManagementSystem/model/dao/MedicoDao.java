@@ -9,6 +9,6 @@ public interface MedicoDao {
 
 	Medico findByCrm(String crm);
 
-	void atualizaTelefonePeloCrm(String crm, String telefone);
+	void updateTelefoneByCrm(String crm, String telefone);
 
 }

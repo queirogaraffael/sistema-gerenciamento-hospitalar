@@ -2,7 +2,7 @@ package hospitalManagementSystem.controller;
 
 import javax.swing.JOptionPane;
 
-import hospitalManagementSystem.constantes.MenuPrincipalConstantes;
+import hospitalManagementSystem.commons.constantes.MenuPrincipalConstantes;
 import hospitalManagementSystem.db.DB;
 import hospitalManagementSystem.model.dao.DaoFactory;
 import hospitalManagementSystem.model.dao.MedicoDao;
@@ -160,7 +160,7 @@ public class HospitalManagerController {
 		String cpf = JOptionPane.showInputDialog("Digite o CPF: ");
 		String telefone = JOptionPane.showInputDialog("Digite o telefone: ");
 
-		pacienteDao.atualizaTelefonePeloCpf(cpf, telefone);
+		pacienteDao.updateTelefoneByCpf(cpf, telefone);
 
 	}
 
@@ -169,7 +169,7 @@ public class HospitalManagerController {
 		String crm = JOptionPane.showInputDialog("Digite o CRM: ");
 		String telefone = JOptionPane.showInputDialog("Digite o telefone: ");
 
-		medicoDao.atualizaTelefonePeloCrm(crm, telefone);
+		medicoDao.updateTelefoneByCrm(crm, telefone);
 
 	}
 }
